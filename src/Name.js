@@ -1,5 +1,5 @@
-const Name=(props)=>{
-    return <h3>As Salam u Alaikum,{props.fName} {props.lName}</h3>
+const Name=({fName,lName})=>{
+    return <h1>As Salam u Alaikum, {fName} {lName}</h1>
 }
 
 export default Name;
