@@ -1,14 +1,19 @@
-import Counter from "./Counter";
+import React from "react";
 import Name from "./Name";
+import Counter from './Counter'
+import ProductList from "./products/ProductList";
 const App=()=>{
     return <div>
-        <h1>Welcome To React App</h1>
-        <Counter count={9}/>
-        <Counter count={15}/>
-        
-        <Name fName="Afzal" lName="Rahman"/>
-        <Name fName="Hafeez" lName="Rahman"/>
- 
+        <ProductList/>
+        {/* <h1>Welcome to React App</h1> */}
+        {/* <Name fName="Afzal"/>
+        <Name fName="Fazl"/>
+        <hr/>
+        <Counter count={10}/>
+        <hr/>
+        <Counter count={1}/>
+    <hr/> */}
+
     </div>
 }
 
