@@ -4,7 +4,7 @@ import React from "react";
 import ProductList from "./product/ProductList";
 
 const App=()=>{
-    return <div>
+    return <div className="containercol-md-12">
         {/* <h1>Welcome to React App</h1>
         <Name fName="Afzal"/>
         
