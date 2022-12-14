@@ -1,5 +1,5 @@
 const Name=(props)=>{
-    return <h1>Welcome,Mr.{props.fName}</h1>
+    return <h1>As Salam U Alaikum,{props.fName}</h1>
 }
 
 export default Name;

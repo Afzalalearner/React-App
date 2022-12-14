@@ -1,4 +1,4 @@
-import React from "react";
+import React  from "react";
 
 class Counter extends React.Component{
 
@@ -21,17 +21,17 @@ class Counter extends React.Component{
     }
     
     render=()=>{
-        
         return <div>
-            
-
-            <button onClick={this.inc} >++</button>
+            <hr/>
+            <button onClick={this.inc}>++</button>
             <h1>Counter {this.state.count}</h1>
-             <button onClick={this.dec}>--</button>
+            <button onClick={this.dec}>--</button>
+
+            <hr/>
 
         </div>
-
     }
+
 }
 
 export default Counter;
